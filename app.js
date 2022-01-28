@@ -14,8 +14,7 @@ class Stack {
 }
 
 function reverseString(string) {
-  const length = string.length;
-  const stack = new Stack(length);
+  const stack = new Stack();
   let reversed = "";
 
   for (let elem of string) {
